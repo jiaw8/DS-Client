@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Button?>
+<GridPane hgap="10" prefHeight="500.0" prefWidth="600.0" vgap="10" xmlns="http://javafx.com/javafx/8.0.76-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="clientController">
+
+   <VBox prefHeight="500.0" prefWidth="580.0" GridPane.valignment="TOP">
+
+      <HBox prefHeight="350.0" prefWidth="580.0">
+         <!--<Button fx:id="click" defaultButton="true" onAction="#click" />-->
+         <ListView prefHeight="350.0" prefWidth="200.0" />
+
+
+      </HBox>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+
+         <ListView prefHeight="200.0" prefWidth="200.0" />
+
+
+      </HBox>
+      <!--<GridPane.margin>-->
+         <!--<Insets />-->
+      <!--</GridPane.margin>-->
+
+
+   </VBox>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+
+
+
+
+
+
+</GridPane>
